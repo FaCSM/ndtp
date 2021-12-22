@@ -123,7 +123,7 @@ const questions =
                 new Answer("Филя", 0),
                 new Answer("Хрюша", 0),
                 new Answer("Степашка", 1),
-                new Answer("Кеша", 0)
+                new Answer("Кеша", 0),
                 new Answer("Каркуша", 0)
             ]),
         new Question("Куда Братец Кролик умолял его не бросать?",
