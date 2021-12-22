@@ -1,0 +1,73 @@
+.text{
+    font-family: Impact;
+    color: #222;
+    text-decoration: none;
+}
+body {
+    background: no-repeat;
+    background-size: cover;
+    background-image: url("../svg/testback_w.svg");
+}
+.logo{
+    content: url("../logo_w.png");
+}
+.dark-theme .logo{
+    content: url("../logo_b.png");
+}
+img.themm {
+    content: url("../svg/moon.svg");
+}
+.dark-theme img.themm {
+    content: url("../svg/sun.svg");
+}
+body.dark-theme {
+    background: no-repeat;
+    background-size: cover;
+    background-image: url("../svg/testback_b.svg");
+}
+.dark-theme .text{
+    font-family: Impact;
+    color: #eee;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 8%;
+    width: 100%;
+}
+iframe{
+    border: none;
+    border-width: 0px;
+}
+
+.nav-links{
+    display: flex;
+}
+.last-game{
+    font-size: 50px;
+    margin-right: 5vh ;
+}
+.settings{
+    font-size: 50px;
+    margin-right: 1vh;
+}
+.logo{
+    height: 65px;
+    margin-left: 1vh;
+}
+.btn-toggle{
+    position:fixed;
+    bottom:1vh;
+    left: 1vh;
+
+    background: none;
+    border: none;
+}
+.btn-toggle img{
+    height: 80px;
+}
+
+

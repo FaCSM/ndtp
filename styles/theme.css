@@ -1,0 +1,124 @@
+.text{
+    font-family: Impact;
+    color: #222;
+    text-decoration: none;
+}
+
+body {
+    background: no-repeat;
+    background-size: cover;
+    background-image: url("../svg/back_w.svg");
+}
+.logo{
+    content: url("../logo_w.png");
+}
+.dark-theme .logo{
+    content: url("../logo_b.png");
+}
+img.themm {
+    content: url("../svg/moon.svg");
+}
+.dark-theme img.themm {
+    content: url("../svg/sun.svg");
+}
+
+body.dark-theme {
+    background: no-repeat;
+    background-size: cover;
+    background-image: url("../svg/back_b.svg");
+}
+.dark-theme .text{
+    font-family: Impact;
+    color: #eee;
+    text-decoration: none;
+}
+.dark-theme .header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+
+}
+.header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+
+}
+.nav-links{
+    display: flex;
+
+}
+.settings{
+    font-size: 50px;
+    margin-right: 1vh;
+}
+.logo{
+    height: 65px;
+    margin-left: 1vh;
+}
+.btn-toggle{
+    position:absolute;
+    bottom:0;
+    margin-left: 1vh;
+    margin-bottom: 1vh;
+    background: none;
+    border: none;
+}
+.btn-toggle img{
+    height: 80px;
+}
+.start {
+    outline: 0;
+    font-family: Impact;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    grid-gap: 8px;
+    align-items: center;
+    background-color: #bf272d;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 90px;
+    gap: 10px;
+    justify-content: center;
+    line-height: 1;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;}
+
+.dark-theme .start{
+    color: #222222;
+}
+.start:hover {
+    color: white;
+    box-shadow: 10px 10px 0 #ffffff;
+    transform: translate(-10px, -10px);
+}
+#type{
+    width: 25vh;
+    margin-top: 45vh;
+    margin-left: 18vh;
+}
+.start:focus-visible {
+    outline-offset: 1px;
+}
+.dark-theme .start:hover {
+    color: black;
+    box-shadow: 10px 10px 0 rgb(0, 0, 0);
+    transform: translate(-10px, -10px);
+}
+.dark-theme #type  {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+

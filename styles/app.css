@@ -1,0 +1,117 @@
+body, html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 16px;
+	font-family: helvetica, arial, serif;
+	color: #111;
+}
+
+.wrapper
+{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.main
+{
+	display: table-cell;
+	text-align: center;
+}
+
+.quiz-frame
+{
+	border: 0;
+
+}
+
+.quiz__head
+{
+	font-size: 20pt;
+	margin: 1vh;
+	margin-top: 15vh;
+	margin-bottom: 35vh;
+}
+
+.head__content
+{
+	padding: 5px;
+}
+
+.quiz__body
+{
+	margin: 10px;
+}
+.quiz__footer 
+{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+}
+.footer__content 
+{
+	padding: 5px;
+}
+.dark-theme .footer__content{
+	color: #eeeeee;
+}
+
+.button
+{
+	border: 0;
+	border-radius: 10px;
+	background: #00FFFF;
+	color: #000000;
+	padding: 10px 25px;
+	width: 100%;
+	font-size: 15pt;
+	display: block;
+	margin: 2px auto;
+	cursor: pointer;
+}
+.buttons__content{
+	position: fixed;
+	bottom: 5vh;
+	left: 35vw;
+	width: 30vw;
+}
+.button_wrong 
+{
+	background: #EB6465;
+}
+.button_correct
+{
+	background: #5EB97D;
+}
+.button_passive
+{
+	background: #B3B3B3;
+}
+.dark-theme html, .dark-theme body{
+	color: #eeeeee;
+}
+.dark-theme .head__content{
+	color: #eeeeee;
+}
+.dark-theme .button_wrong
+{
+	background: #7a1818;
+}
+.dark-theme .button_correct
+{
+	background: #1f4930;
+}
+.dark-theme .button_passive
+{
+	background: #3b3b3b;
+}
+.dark-theme .button
+{
+	background: #2E3192;
+	color: #eeeeee;
+}
