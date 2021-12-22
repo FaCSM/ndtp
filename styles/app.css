@@ -1,117 +1,113 @@
-body, html
-{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	font-size: 16px;
-	font-family: helvetica, arial, serif;
-	color: #111;
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: helvetica, arial, serif;
+    color: #111;
 }
 
-.wrapper
-{
-	width: 100%;
-	height: 100%;
-	display: table;
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: table;
 }
 
-.main
-{
-	display: table-cell;
-	text-align: center;
+.main {
+    display: table-cell;
+    text-align: center;
 }
 
-.quiz-frame
-{
-	border: 0;
+.quiz-frame {
+    border: 0;
 
 }
 
-.quiz__head
-{
-	font-size: 20pt;
-	margin: 1vh;
-	margin-top: 15vh;
-	margin-bottom: 35vh;
+.quiz__head {
+    font-size: 20pt;
+    margin: 1vh;
+    margin-top: 15vh;
+    margin-bottom: 35vh;
 }
 
-.head__content
-{
-	padding: 5px;
+.head__content {
+    padding: 5px;
 }
 
-.quiz__body
-{
-	margin: 10px;
-}
-.quiz__footer 
-{
-	position: absolute;
-	bottom: 0;
-	display: block;
-	width: 100%;
-}
-.footer__content 
-{
-	padding: 5px;
-}
-.dark-theme .footer__content{
-	color: #eeeeee;
+.quiz__body {
+    margin: 10px;
 }
 
-.button
-{
-	border: 0;
-	border-radius: 10px;
-	background: #00FFFF;
-	color: #000000;
-	padding: 10px 25px;
-	width: 100%;
-	font-size: 15pt;
-	display: block;
-	margin: 2px auto;
-	cursor: pointer;
+.quiz__footer {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
 }
-.buttons__content{
-	position: fixed;
-	bottom: 5vh;
-	left: 35vw;
-	width: 30vw;
+
+.footer__content {
+    padding: 5px;
 }
-.button_wrong 
-{
-	background: #EB6465;
+
+.dark-theme .footer__content {
+    color: #eeeeee;
 }
-.button_correct
-{
-	background: #5EB97D;
+
+.button {
+    border: 0;
+    border-radius: 10px;
+    background: #00FFFF;
+    color: #000000;
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 15pt;
+    display: block;
+    margin: 2px auto;
+    cursor: pointer;
 }
-.button_passive
-{
-	background: #B3B3B3;
+
+.dark-theme .button {
+    background: #2E3192;
+    color: #eeeeee;
 }
-.dark-theme html, .dark-theme body{
-	color: #eeeeee;
+
+.buttons__content {
+    position: fixed;
+    bottom: 5vh;
+    left: 35vw;
+    width: 30vw;
 }
-.dark-theme .head__content{
-	color: #eeeeee;
+
+.button_wrong {
+    background: #EB6465;
 }
-.dark-theme .button_wrong
-{
-	background: #7a1818;
+
+.button_correct {
+    background: #5EB97D;
 }
-.dark-theme .button_correct
-{
-	background: #1f4930;
+
+.button_passive {
+    background: #B3B3B3;
 }
-.dark-theme .button_passive
-{
-	background: #3b3b3b;
+
+.dark-theme html, .dark-theme body {
+    color: #eeeeee;
 }
-.dark-theme .button
-{
-	background: #2E3192;
-	color: #eeeeee;
+
+.dark-theme .head__content {
+    color: #eeeeee;
+}
+
+.dark-theme .button_wrong {
+    background: #7a1818;
+}
+
+.dark-theme .button_correct {
+    background: #1f4930;
+}
+
+.dark-theme .button_passive {
+    background: #3b3b3b;
 }

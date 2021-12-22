@@ -1,12 +1,11 @@
 const headElem = document.getElementById("head");
 const buttonsElem = document.getElementById("buttons");
 const pagesElem = document.getElementById("pages");
-let ques_num = 0;
+var ques_num = 0;
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
-
 class Quiz {
     constructor(type, questions, results) {
         this.type = type;
@@ -300,7 +299,7 @@ function Click(index) {
     for (let i = 0; i < btns.length; i++) {
         btns[i].className = "button button_passive";
     }
-    if (quiz.type === 1) {
+    if (quiz.type == 1) {
         if (correct >= 0) {
             btns[correct].className = "button button_correct";
         }
@@ -310,7 +309,7 @@ function Click(index) {
     } else {
         btns[index].className = "button button_correct";
     }
-    setTimeout(Update, 1000);
+    setTimeout(Update, 500);
 }
 
 function eventList(e) {
@@ -335,5 +334,5 @@ function eventList(e) {
             break;
     }
 }
-
-document.addEventListener('keydown', eventList)
+console.log(localStorage.getItem('quiz_type'));
+document.addEventListener('keydown', eventList);
