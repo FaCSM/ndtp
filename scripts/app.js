@@ -1,10 +1,12 @@
 const headElem = document.getElementById("head");
 const buttonsElem = document.getElementById("buttons");
 const pagesElem = document.getElementById("pages");
-var ques_num = 0
+let ques_num = 0;
+
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
+
 class Quiz {
     constructor(type, questions, results) {
         this.type = type;
