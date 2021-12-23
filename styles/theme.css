@@ -10,10 +10,10 @@ body {
     background-image: url("../svg/back_w.svg");
 }
 .logo{
-    content: url("../logo_w.png");
+    content: url("../svg/logo_w.svg");
 }
 .dark-theme .logo{
-    content: url("../logo_b.png");
+    content: url("../svg/logo_b.svg");
 }
 img.themm {
     content: url("../svg/moon.svg");
